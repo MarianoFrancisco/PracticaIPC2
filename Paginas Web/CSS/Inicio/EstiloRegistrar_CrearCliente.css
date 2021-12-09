@@ -1,0 +1,90 @@
+*{
+    /*estableciendo medidas*/
+    margin:0px;
+    padding: 0px;
+}
+body {
+    background-image: url(../../Imagenes/PantallaInicio.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+H1 { 
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    font-size: 60px;
+}
+#titulo{
+    background: #01FCF8;
+    width: 1280px;
+    height:100px;
+    margin:auto;
+    margin-top: 0px;
+}
+#datosUsuario{
+    background-color: rgba(0, 195, 255, 0.904);
+    width: 480px;
+    height:410px;
+    margin:auto;
+    margin-top: 50px;
+}
+#formularioRegistrar{
+    width: 100%;
+    padding: 0px 20px 10px 20px;
+    box-sizing: border-box;
+}
+#datosUsuario h1{
+    text-align: center;
+    padding-top: 0px;
+    color: #000000;
+    font-size: 40px;
+}
+#formularioRegistrar input[type="text"],#formularioRegistrar input[type="password"] {
+    border: none;
+    background: none;
+    width:90%;
+    height: 40px;
+    font-size:15px;
+    font-weight: bold;
+    text-align: left;
+    
+    
+}
+#formularioRegistrar input[type="submit"]{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 255, 76, 0.829);
+    color:#000000;
+    cursor:pointer;
+    border:2px solid #FFFFFF;
+    font-size:25px;
+    font-weight: 900;   
+}
+#formularioRegistrar input[type="submit"]:hover{      
+    background-color: rgba(255, 0, 0, 0.856);
+}
+#formularioRegistrar hr{
+    margin-bottom: 20px;
+    color:#0FF172;
+}
+#nombreLlamar::placeholder{
+    color:#000000;
+}
+#correoLlamar::placeholder{
+    color:#000000;
+}
+#passwordLlamar::placeholder{
+    color:#000000;
+}
+#confirmarPasswordLlamar::placeholder{
+    color:#000000;
+}
+#apellidoLlamar::placeholder{
+    color:#000000;
+}
+#cuiLlamar::placeholder{
+    color:#000000;
+}
+#departamentoLlamar::placeholder{
+    color:#000000;
+}
