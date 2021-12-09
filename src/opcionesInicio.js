@@ -14,7 +14,7 @@ const departamento = document.getElementById("departamentoLlamar");
 //Funciones
 function IniciarSesion(){
     if(nombre.value==""||contraseña.value==""){
-        console.log("Primero llena todos los datos");
+        alert("Primero llena todos los datos");
     }else{
         console.log("Nombre: "+nombre.value);
         console.log("Contraseña: "+contraseña.value);
@@ -25,7 +25,7 @@ function IniciarSesion(){
 function Registrar(){
     if(contraseñaRegistro.value==confirmarContraseñaRegistro.value){
         if(correo.value==""||nombreRegistro.value==""||contraseñaRegistro.value==""||confirmarContraseñaRegistro.value==""){
-            console.log("Primero llena todos los datos");
+            alert("Primero llena todos los datos");
         }else{
             console.log("Correo: "+correo.value);
             console.log("Nombre: "+nombreRegistro.value);
@@ -34,13 +34,13 @@ function Registrar(){
         }
         
     }else{   
-        console.log("Error, contraseñas no son iguales");
+        alert("Error, contraseñas no son iguales");
     }
 }
 
 function IngresarCliente(){
     if(nombreCliente.value==""||apellido.value==""||cui.value==""||departamento.value==""){
-        console.log("Primero llena todos los datos");
+        alert("Primero llena todos los datos");
     }else{
         console.log("nombre "+nombreCliente.value);
         console.log("apellido "+apellido.value);
