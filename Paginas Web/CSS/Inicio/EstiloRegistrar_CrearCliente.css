@@ -39,7 +39,7 @@ H1 {
     color: #000000;
     font-size: 40px;
 }
-#formularioRegistrar input[type="text"],#formularioRegistrar input[type="password"] {
+#formularioRegistrar input[type="text"],input[type="number"],#formularioRegistrar input[type="password"] {
     border: none;
     background: none;
     width:90%;
