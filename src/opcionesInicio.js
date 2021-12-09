@@ -34,7 +34,7 @@ function Registrar(){
         }
         
     }else{   
-        alert("Error, contraseñas no son iguales");
+        console.log("Error, contraseñas no son iguales");
     }
 }
 
